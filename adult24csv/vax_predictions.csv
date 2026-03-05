@@ -1,0 +1,73 @@
+prediction,actual,output
+1,0,"SUS: Using the Health Belief Model (HBM), we can analyze the individual's **perceived susceptibility** an... | BAR: Based on the Health Belief Model (HBM), the individual's **perceived barriers** to vaccination and *... | DEC: YES"
+0,0,"SUS: Using the Health Belief Model (HBM) as a framework, here’s an analysis of the individual's **perceiv... | BAR: Using the Health Belief Model (HBM) to analyze **perceived barriers to vaccination** and **self-effi... | DEC: NO"
+0,0,"SUS: Using the Health Belief Model, let's analyze the individual's perceived susceptibility to influenza ... | BAR: Based on the Health Belief Model and the individual's susceptibility assessment and healthcare acces... | DEC: NO"
+0,0,"SUS: Based on the individual's health profile and using the **Health Belief Model**, their perceived susc... | BAR: Based on the individual's susceptibility assessment and healthcare access, the **perceived barriers ... | DEC: NO"
+0,0,"SUS: Based on this individual's health profile, let's analyze their **perceived susceptibility** and **pe... | BAR: Based on the individual's susceptibility assessment, healthcare access, and the Health Belief Model,... | DEC: NO"
+0,0,"SUS: Based on the individual's health profile, their **perceived susceptibility** to influenza and **perc... | BAR: Using the Health Belief Model (HBM), we can analyze the individual's perceived **barriers to vaccina... | DEC: NO"
+0,0,"SUS: Based on the individual's health profile, their **perceived susceptibility** to influenza and **perc... | BAR: ### **Perceived Barriers to Vaccination**
+
+Despite the individual's high perceived susceptibility an... | DEC: NO"
+0,0,"SUS: Based on the individual's health profile and using the **Health Belief Model**, here is an analysis ... | BAR: ### Perceived Barriers to Vaccination:
+Using the **Health Belief Model**, the individual's perceived... | DEC: NO"
+0,0,"SUS: Based on the individual's health profile and using the **Health Belief Model**, here is an analysis ... | BAR: Based on the provided information and applying the **Health Belief Model**, here’s an analysis of **... | DEC: NO"
+0,0,"SUS: Based on the individual's health profile, let's analyze their perceived susceptibility to influenza ... | BAR: ### Perceived Barriers to Vaccination:
+
+Despite having health insurance, no cost barriers, and a usu... | DEC: NO"
+0,0,"SUS: Based on the Health Belief Model, here’s an analysis of the individual's **perceived susceptibility ... | BAR: ### Perceived Barriers to Vaccination
+
+Given the individual's health profile and access to healthcar... | DEC: NO"
+1,0,"SUS: Based on the individual's health profile, here is the analysis of their **perceived susceptibility**... | BAR: Based on the provided information, here’s a summary of the perceived **barriers to vaccination** and... | DEC: YES"
+0,0,"SUS: Based on the given health profile, let’s analyze the individual's perceived susceptibility to influe... | BAR: Based on the provided susceptibility assessment and healthcare access information, here is a summary... | DEC: NO"
+0,0,"SUS: Using the Health Belief Model (HBM), we can analyze the individual's perceived susceptibility and pe... | BAR: Using the Health Belief Model framework, we can analyze the individual's perceived barriers to vacci... | DEC: NO"
+0,0,"SUS: Based on the individual's health profile, here's an analysis of their **perceived susceptibility** a... | BAR: Based on the individual's perceived susceptibility, perceived severity, and healthcare access, here ... | DEC: NO"
+0,0,"SUS: Using the **Health Belief Model (HBM**), let's analyze the individual's perceived susceptibility and... | BAR: ### **Perceived Barriers to Vaccination**  
+Perceived barriers refer to the individual’s beliefs abo... | DEC: NO"
+0,0,"SUS: Based on the individual's health profile and applying the **Health Belief Model** framework, here’s ... | BAR: Using the Health Belief Model to assess the individual's **perceived barriers to vaccination** and *... | DEC: NO"
+0,0,"SUS: Based on the individual's health profile, let’s analyze their perceived susceptibility to influenza ... | BAR: Using the Health Belief Model, here's a summary of **perceived barriers to vaccination** and **self-... | DEC: NO"
+0,0,"SUS: Using the Health Belief Model (HBM), we can analyze this individual's perceived susceptibility to in... | BAR: Using the Health Belief Model (HBM), the individual's perceived barriers to vaccination and self-eff... | DEC: NO"
+1,0,"SUS: Using the Health Belief Model (HBM), we can analyze the individual's decision-making process regardi... | BAR: Based on the information provided, here's a summary of **perceived barriers to vaccination** and **s... | DEC: YES"
+0,0,"SUS: Based on the individual's health profile and using the **Health Belief Model**, here’s an analysis o... | BAR: Based on the provided susceptibility assessment and healthcare access information, let's analyze **p... | DEC: NO"
+0,0,"SUS: Using the **Health Belief Model** (HBM), we can analyze the individual's decision-making process by ... | BAR: Using the **Health Belief Model (HBM)**, we can evaluate the individual's **perceived barriers** to ... | DEC: NO"
+0,0,"SUS: Using the Health Belief Model, let's analyze the individual's **perceived susceptibility** and **per... | BAR: Based on the given susceptibility assessment and healthcare access information, let's analyze **perc... | DEC: NO"
+0,0,"SUS: Based on the individual's health profile, here is an analysis of their perceived susceptibility to i... | BAR: ### **Perceived Barriers to Vaccination (Health Belief Model Perspective)**
+
+1. **Access to Healthca... | DEC: NO"
+0,0,"SUS: Based on the Health Belief Model, we can analyze the individual's perceived susceptibility to influe... | BAR: Based on the individual's susceptibility assessment and healthcare access, their **perceived barrier... | DEC: NO"
+0,1,"SUS: Based on the individual's health profile, here's an analysis of their **perceived susceptibility** a... | BAR: Based on the provided susceptibility and healthcare access details, here is a summary of the **perce... | DEC: NO"
+1,1,"SUS: Using the Health Belief Model (HBM), the individual's **perceived susceptibility** and **perceived s... | BAR: Based on the individual's susceptibility assessment and healthcare access, here is the summary of **... | DEC: YES"
+1,1,"SUS: Using the **Health Belief Model (HBM)**, we can analyze the individual's **perceived susceptibility*... | BAR: Based on the individual's **perceived susceptibility** and **perceived severity**, their motivation ... | DEC: YES"
+0,1,"SUS: Based on the individual's health profile, here’s an analysis of their **perceived susceptibility** a... | BAR: Based on the individual's susceptibility assessment and healthcare access, here is a summary of thei... | DEC: NO"
+1,1,"SUS: Based on the individual's health profile, let's analyze their perceived susceptibility to influenza ... | BAR: ### **Perceived Barriers to Vaccination**
+Based on the individual's health profile and access to hea... | DEC: YES"
+0,1,"SUS: Using the **Health Belief Model (HBM)** framework, the individual's **perceived susceptibility** and... | BAR: Based on the individual's susceptibility assessment and healthcare access, we can analyze their **pe... | DEC: NO"
+1,1,"SUS: Using the Health Belief Model (HBM), the individual's **perceived susceptibility** and **perceived s... | BAR: ### **Perceived Barriers to Vaccination:**
+
+In the context of the Health Belief Model (HBM), perceiv... | DEC: YES"
+1,1,"SUS: Using the **Health Belief Model**, here’s an analysis of the individual's **perceived susceptibility... | BAR: Using the **Health Belief Model**, the individual's perceived barriers to vaccination and self-effic... | DEC: YES"
+1,1,"SUS: Based on the provided health profile, let's analyze the individual's **perceived susceptibility** to... | BAR: ### **Perceived Barriers to Vaccination**  
+Perceived barriers refer to the individual's assessment ... | DEC: YES"
+0,1,"SUS: Based on the provided health profile, here’s an analysis of the individual's perceived susceptibilit... | BAR: Based on the provided susceptibility assessment and healthcare access information, here is an analys... | DEC: NO"
+1,1,"SUS: Using the Health Belief Model (HBM), let’s analyze this individual's **perceived susceptibility** an... | BAR: From the Health Belief Model (HBM) perspective, let's evaluate **perceived barriers** to vaccination... | DEC: YES"
+1,1,"SUS: Using the Health Belief Model (HBM), here’s an analysis of the individual's perceived susceptibility... | BAR: Based on the individual's susceptibility assessment and healthcare access, here’s a summary of their... | DEC: YES"
+1,1,"SUS: Using the Health Belief Model, the individual’s **perceived susceptibility** and **perceived severit... | BAR: To summarize **perceived barriers to vaccination** and **self-efficacy** for this individual, we can... | DEC: YES"
+1,1,"SUS: Using the **Health Belief Model (HBM)**, the individual's decision-making process about getting a fl... | BAR: Using the **Health Belief Model (HBM)**, we can analyze this individual's **perceived barriers** to ... | DEC: YES"
+1,1,"SUS: Based on the individual's health profile, here is an analysis of their **perceived susceptibility** ... | BAR: ### **Perceived Barriers to Vaccination**
+
+Using the Health Belief Model, the **perceived barriers**... | DEC: YES"
+1,1,"SUS: Based on the given health profile, let’s analyze the individual's **perceived susceptibility** to in... | BAR: ### **Perceived Barriers to Vaccination:**
+Based on the individual's susceptibility assessment and h... | DEC: YES"
+1,1,"SUS: Based on the provided health profile of the individual, here is an analysis of their **perceived sus... | BAR: Based on the individual's susceptibility assessment and healthcare access, here is a summary of thei... | DEC: YES"
+1,1,"SUS: Using the Health Belief Model (HBM), we can analyze this individual's decision-making process regard... | BAR: ### **Perceived Barriers to Vaccination**
+Using the Health Belief Model (HBM), perceived barriers re... | DEC: YES"
+1,1,"SUS: Using the Health Belief Model (HBM), here’s an analysis of the individual's **perceived susceptibili... | BAR: Using the Health Belief Model (HBM), here is an analysis of **perceived barriers to vaccination** an... | DEC: YES"
+1,1,"SUS: Based on the individual's health profile and using the **Health Belief Model**, here is an analysis ... | BAR: Using the **Health Belief Model**, let's analyze the individual's **perceived barriers** to vaccinat... | DEC: YES"
+1,1,"SUS: Using the Health Belief Model, we can analyze the individual's **perceived susceptibility** to influ... | BAR: Using the Health Belief Model, the individual's **perceived barriers to vaccination** and **self-eff... | DEC: YES"
+1,1,"SUS: Based on the Health Belief Model, the individual's **perceived susceptibility** and **perceived seve... | BAR: ### Perceived Barriers to Vaccination:
+
+Given the individual's susceptibility assessment and healthc... | DEC: YES"
+1,1,"SUS: Using the Health Belief Model, here's an analysis of the individual's perceived susceptibility to in... | BAR: Using the individual's assessed perceived susceptibility, perceived severity, and healthcare access,... | DEC: YES"
+1,1,"SUS: Using the **Health Belief Model (HBM)**, let's break down the individual's **perceived susceptibilit... | BAR: ### Perceived Barriers to Vaccination and Self-Efficacy Analysis
+
+Using the **Health Belief Model (H... | DEC: YES"
+1,1,"SUS: Using the Health Belief Model (HBM), we can analyze this individual's decision-making process regard... | BAR: Based on the Health Belief Model (HBM), the individual's perceived barriers to vaccination and self-... | DEC: YES"

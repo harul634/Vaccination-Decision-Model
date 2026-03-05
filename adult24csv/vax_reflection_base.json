@@ -1,0 +1,37 @@
+[
+  {
+    "profile": "77yo non-Hispanic White male, some college, South. Health: good. Conditions: hypertension, cancer history. Insurance: has Medicare. no cost barriers. ",
+    "actual": 0,
+    "predicted": 1
+  },
+  {
+    "profile": "63yo non-Hispanic White male, Associate, West. Health: very good. Conditions: hypertension. Insurance: has insurance. no cost barriers. has usual care",
+    "actual": 0,
+    "predicted": 1
+  },
+  {
+    "profile": "49yo Hispanic unknown female, <high school, West. Health: fair. Conditions: diabetes, hypertension. Insurance: has Medicaid. no cost barriers. has usu",
+    "actual": 0,
+    "predicted": 1
+  },
+  {
+    "profile": "74yo non-Hispanic White male, Associate, South. Health: poor. Conditions: diabetes, hypertension, cancer history. Insurance: has Medicare. no cost bar",
+    "actual": 1,
+    "predicted": 0
+  },
+  {
+    "profile": "62yo non-Hispanic White male, unknown, Midwest. Health: very good. Conditions: hypertension. Insurance: has insurance. no cost barriers. has usual car",
+    "actual": 1,
+    "predicted": 0
+  },
+  {
+    "profile": "34yo non-Hispanic White female, unknown, Northeast. Health: excellent. Conditions: no chronic conditions. Insurance: has insurance. no cost barriers. ",
+    "actual": 1,
+    "predicted": 0
+  },
+  {
+    "profile": "32yo non-Hispanic AIAN female, unknown, West. Health: excellent. Conditions: no chronic conditions. Insurance: has insurance. has cost barriers. has u",
+    "actual": 1,
+    "predicted": 0
+  }
+]
