@@ -1,0 +1,53 @@
+{
+  "backend": "llama",
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "version": "v2_stratified",
+  "total_samples": 1000,
+  "train_size": 699,
+  "test_size": 301,
+  "train_vax_rate": 0.5007153075822603,
+  "test_vax_rate": 0.4983388704318937,
+  "train_accuracy": 0.5050071530758226,
+  "train_f1": 0.5038679360427056,
+  "test_accuracy": 0.53156146179402,
+  "test_f1": 0.5263738463358072,
+  "errors_stored": 346,
+  "time_hours": 5.907618267734845,
+  "baselines": {
+    "Random Forest": {
+      "cv_accuracy": 0.653,
+      "cv_std": 0.026,
+      "test_accuracy": 0.6512
+    },
+    "Logistic Regression": {
+      "cv_accuracy": 0.648,
+      "cv_std": 0.0178,
+      "test_accuracy": 0.6578
+    },
+    "Gradient Boosting": {
+      "cv_accuracy": 0.625,
+      "cv_std": 0.0268,
+      "test_accuracy": 0.6412
+    },
+    "MLP Neural Net": {
+      "cv_accuracy": 0.649,
+      "cv_std": 0.0404,
+      "test_accuracy": 0.6412
+    },
+    "KNN (k=5)": {
+      "cv_accuracy": 0.631,
+      "cv_std": 0.0392,
+      "test_accuracy": 0.598
+    },
+    "SVM (RBF)": {
+      "cv_accuracy": 0.665,
+      "cv_std": 0.0045,
+      "test_accuracy": 0.6512
+    },
+    "XGBoost": {
+      "cv_accuracy": 0.615,
+      "cv_std": 0.0332,
+      "test_accuracy": 0.6379
+    }
+  }
+}
