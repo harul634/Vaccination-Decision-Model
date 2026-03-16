@@ -1,0 +1,104 @@
+
+============================================================
+FLARE-VAX v2 (Stratified Split)
+============================================================
+Backend: qwen | Model: Qwen/Qwen3.5-27B
+GPU: NVIDIA A100-SXM4-80GB
+Time: 2026-03-14 23:30:14
+
+Loading Qwen/Qwen3.5-27B...
+Model loaded! GPU mem: 53.8 GB
+
+Loading: nhis2024_with_patterns.csv
+Total: 1000 | Train: 699 | Test: 301
+Train vax rate: 50.1% | Test vax rate: 49.8%
+
+============================================================
+BASELINE MODELS (5-fold CV on full sample)
+============================================================
+
+  Method                      CV Acc   Test Acc
+  ---------------------------------------------
+  Random Forest              0.6530    0.6512
+  Logistic Regression        0.6480    0.6578
+  Gradient Boosting          0.6250    0.6412
+  MLP Neural Net             0.6490    0.6412
+  KNN (k=5)                  0.6310    0.5980
+  SVM (RBF)                  0.6650    0.6512
+  XGBoost                    0.6150    0.6379
+
+Building profiles...
+
+============================================================
+RUNNING FLARE-VAX v2 (QWEN)
+============================================================
+Train: 699 (vax:50.1%) | Test: 301 (vax:49.8%)
+
+
+  [100/1000] TRAIN | 162min | ETA:24.3h | Train:0.510 | Test:0.000 | Err:49
+
+  [200/1000] TRAIN | 324min | ETA:21.6h | Train:0.475 | Test:0.000 | Err:105
+
+  [300/1000] TRAIN | 486min | ETA:18.9h | Train:0.510 | Test:0.000 | Err:147
+
+  [400/1000] TRAIN | 649min | ETA:16.2h | Train:0.480 | Test:0.000 | Err:208
+
+  [500/1000] TRAIN | 812min | ETA:13.5h | Train:0.484 | Test:0.000 | Err:258
+
+  [600/1000] TRAIN | 974min | ETA:10.8h | Train:0.490 | Test:0.000 | Err:306
+
+  [700/1000] TEST | 1136min | ETA:8.1h | Train:0.492 | Test:1.000 | Err:355
+
+  [800/1000] TEST | 1298min | ETA:5.4h | Train:0.492 | Test:0.495 | Err:355
+
+  [900/1000] TEST | 1460min | ETA:2.7h | Train:0.492 | Test:0.483 | Err:355
+
+  [1000/1000] TEST | 1622min | ETA:0.0h | Train:0.492 | Test:0.492 | Err:355
+
+============================================================
+FINAL RESULTS — QWEN (Qwen/Qwen3.5-27B)
+============================================================
+Time: 27.03 hours | Samples: 1000
+
+TRAINING (699 samples, 50% vax):
+  Accuracy: 0.4921 | F1: 0.3760 | Errors stored: 355
+  Pred YES: 651 | Pred NO: 48
+              precision    recall  f1-score   support
+
+     Not Vax       0.44      0.06      0.11       349
+         Vax       0.50      0.92      0.65       350
+
+    accuracy                           0.49       699
+   macro avg       0.47      0.49      0.38       699
+weighted avg       0.47      0.49      0.38       699
+
+TEST (301 samples, 50% vax):
+  Accuracy: 0.4917 | F1: 0.3452
+  Pred YES: 293 | Pred NO: 8
+              precision    recall  f1-score   support
+
+     Not Vax       0.38      0.02      0.04       151
+         Vax       0.49      0.97      0.65       150
+
+    accuracy                           0.49       301
+   macro avg       0.43      0.49      0.35       301
+weighted avg       0.43      0.49      0.35       301
+
+
+============================================================
+COMPARISON: FLARE-VAX vs Baselines (Test Accuracy)
+============================================================
+  Method                           Test Acc
+  ------------------------------------------
+  KNN (k=5)                         0.5980
+  XGBoost                           0.6379
+  Gradient Boosting                 0.6412
+  MLP Neural Net                    0.6412
+  Random Forest                     0.6512
+  SVM (RBF)                         0.6512
+  Logistic Regression               0.6578
+  FLARE-VAX (qwen)                  0.4917  ***
+
+Saved: results1/predictions_qwen.csv
+Saved: results1/summary_qwen.json
+DONE!

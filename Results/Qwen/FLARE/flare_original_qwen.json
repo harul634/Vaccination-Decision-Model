@@ -1,0 +1,20 @@
+{
+  "backend": "qwen",
+  "model": "Qwen/Qwen3.5-27B",
+  "task": "FLARE_wildfire_original",
+  "n_samples": 76,
+  "train_size": 53,
+  "test_size": 23,
+  "overall_accuracy": 0.7105263157894737,
+  "train_accuracy": 0.660377358490566,
+  "test_accuracy": 0.8260869565217391,
+  "test_f1": 0.8089244851258581,
+  "errors_stored": 18,
+  "time_minutes": 125.17698857386907,
+  "comparison": {
+    "gpt4o_overall": 0.7763157894736842,
+    "claude_overall": 0.8947368421052632,
+    "drop_from_gpt4o": 0.06578947368421051,
+    "drop_from_claude": 0.1842105263157895
+  }
+}

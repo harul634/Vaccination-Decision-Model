@@ -1,0 +1,121 @@
+{
+  "dataset": {
+    "total_samples": 32082,
+    "train_size": 22457,
+    "test_size": 9625,
+    "features": 30,
+    "feature_names": [
+      "age",
+      "sex",
+      "race",
+      "hispanic",
+      "education",
+      "marital_status",
+      "region",
+      "income_poverty_ratio",
+      "health_status",
+      "diabetes",
+      "copd",
+      "cancer_ever",
+      "heart_disease",
+      "hypertension",
+      "uninsured",
+      "medicare",
+      "medicaid",
+      "cost_barrier_1",
+      "cost_barrier_2",
+      "usual_care_place",
+      "smoking_status",
+      "bmi_category",
+      "high_risk_chronic",
+      "any_cost_barrier",
+      "access_barrier",
+      "num_children",
+      "disability",
+      "angina",
+      "stroke",
+      "has_insurance"
+    ],
+    "vaccination_rate": 0.4736
+  },
+  "results": {
+    "Random Forest": {
+      "train_accuracy": 0.9992,
+      "test_accuracy": 0.6507,
+      "test_f1": 0.6505,
+      "test_precision": 0.6504,
+      "test_recall": 0.6507,
+      "test_auc": 0.7106,
+      "cv_accuracy_mean": 0.6582,
+      "cv_accuracy_std": 0.0066,
+      "time_seconds": 4.0
+    },
+    "XGBoost": {
+      "train_accuracy": 0.7514,
+      "test_accuracy": 0.6623,
+      "test_f1": 0.6624,
+      "test_precision": 0.6624,
+      "test_recall": 0.6623,
+      "test_auc": 0.7227,
+      "cv_accuracy_mean": 0.6644,
+      "cv_accuracy_std": 0.0057,
+      "time_seconds": 3.1
+    },
+    "Logistic Regression": {
+      "train_accuracy": 0.6531,
+      "test_accuracy": 0.6566,
+      "test_f1": 0.6561,
+      "test_precision": 0.6561,
+      "test_recall": 0.6566,
+      "test_auc": 0.7111,
+      "cv_accuracy_mean": 0.6538,
+      "cv_accuracy_std": 0.0082,
+      "time_seconds": 2.1
+    },
+    "SVM (RBF)": {
+      "train_accuracy": 0.6962,
+      "test_accuracy": 0.6635,
+      "test_f1": 0.6631,
+      "test_precision": 0.6631,
+      "test_recall": 0.6635,
+      "test_auc": 0.7142,
+      "cv_accuracy_mean": 0.6617,
+      "cv_accuracy_std": 0.0072,
+      "time_seconds": 304.0
+    },
+    "Gradient Boosting": {
+      "train_accuracy": 0.7347,
+      "test_accuracy": 0.6631,
+      "test_f1": 0.6631,
+      "test_precision": 0.6632,
+      "test_recall": 0.6631,
+      "test_auc": 0.7235,
+      "cv_accuracy_mean": 0.6681,
+      "cv_accuracy_std": 0.006,
+      "time_seconds": 14.9
+    },
+    "MLP Neural Net": {
+      "train_accuracy": 0.6984,
+      "test_accuracy": 0.6571,
+      "test_f1": 0.6573,
+      "test_precision": 0.6593,
+      "test_recall": 0.6571,
+      "test_auc": 0.7193,
+      "cv_accuracy_mean": 0.6626,
+      "cv_accuracy_std": 0.0066,
+      "time_seconds": 6.8
+    },
+    "KNN (k=5)": {
+      "train_accuracy": 0.7436,
+      "test_accuracy": 0.6192,
+      "test_f1": 0.6191,
+      "test_precision": 0.619,
+      "test_recall": 0.6192,
+      "test_auc": 0.6585,
+      "cv_accuracy_mean": 0.6208,
+      "cv_accuracy_std": 0.0058,
+      "time_seconds": 2.1
+    }
+  },
+  "timestamp": "2026-03-11 21:27:49"
+}

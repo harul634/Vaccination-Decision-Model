@@ -1,0 +1,20 @@
+{
+  "backend": "llama",
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "task": "FLARE_wildfire_original",
+  "n_samples": 76,
+  "train_size": 53,
+  "test_size": 23,
+  "overall_accuracy": 0.631578947368421,
+  "train_accuracy": 0.6415094339622641,
+  "test_accuracy": 0.6086956521739131,
+  "test_f1": 0.6361556064073227,
+  "errors_stored": 19,
+  "time_minutes": 12.467619355519613,
+  "comparison": {
+    "gpt4o_overall": 0.7763157894736842,
+    "claude_overall": 0.8947368421052632,
+    "drop_from_gpt4o": 0.14473684210526316,
+    "drop_from_claude": 0.26315789473684215
+  }
+}
