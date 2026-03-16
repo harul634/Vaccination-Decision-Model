@@ -605,15 +605,6 @@ CDC National Center for Health Statistics. (2024). *National Health Interview Su
 
 ---
 
-## Contact
-
-**Harul Murugan**  
-Graduate Student, W. P. Carey School of Business  
-Arizona State University  
-GitHub: [@harul634](https://github.com/harul634)
-
-**Advisor: Prof. Xiyang Hu**  
-GitHub: [@xiyanghu](https://github.com/xiyanghu)
 
 ---
 
